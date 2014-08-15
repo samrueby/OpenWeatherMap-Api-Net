@@ -14,25 +14,23 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class Wind.
-    /// </summary>
-    public class Wind
-    {
-        /// <summary>
-        /// Gets or sets the speed.
-        /// </summary>
-        /// <value>The speed.</value>
-        [XmlElement("speed")]
-        public Speed Speed { get; set; }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class Wind.
+	/// </summary>
+	public class Wind {
+		/// <summary>
+		/// Gets or sets the speed.
+		/// </summary>
+		/// <value>The speed.</value>
+		[ XmlElement( "speed" ) ]
+		public Speed Speed { get; set; }
 
-        /// <summary>
-        /// Gets or sets the direction.
-        /// </summary>
-        /// <value>The direction.</value>
-        [XmlElement("direction")]
-        public Direction Direction { get; set; }
-    }
+		/// <summary>
+		/// Gets or sets the direction.
+		/// </summary>
+		/// <value>The direction.</value>
+		[ XmlElement( "direction" ) ]
+		public Direction Direction { get; set; }
+	}
 }

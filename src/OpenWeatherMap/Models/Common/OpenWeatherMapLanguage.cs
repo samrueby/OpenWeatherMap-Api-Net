@@ -12,96 +12,94 @@
 // <summary></summary>
 // ***********************************************************************
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Enum OpenWeatherMapLanguage
-    /// </summary>
-    public enum OpenWeatherMapLanguage
-    {
-        /// <summary>
-        /// English
-        /// </summary>
-        EN,
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Enum OpenWeatherMapLanguage
+	/// </summary>
+	public enum OpenWeatherMapLanguage {
+		/// <summary>
+		/// English
+		/// </summary>
+		EN,
 
-        /// <summary>
-        /// Russian
-        /// </summary>
-        RU,
+		/// <summary>
+		/// Russian
+		/// </summary>
+		RU,
 
-        /// <summary>
-        /// Italian
-        /// </summary>
-        IT,
+		/// <summary>
+		/// Italian
+		/// </summary>
+		IT,
 
-        /// <summary>
-        /// Spanish
-        /// </summary>
-        SP,
+		/// <summary>
+		/// Spanish
+		/// </summary>
+		SP,
 
-        /// <summary>
-        /// Ukrainian
-        /// </summary>
-        UA,
+		/// <summary>
+		/// Ukrainian
+		/// </summary>
+		UA,
 
-        /// <summary>
-        /// German
-        /// </summary>
-        DE,
+		/// <summary>
+		/// German
+		/// </summary>
+		DE,
 
-        /// <summary>
-        /// Portuguese
-        /// </summary>
-        PT,
+		/// <summary>
+		/// Portuguese
+		/// </summary>
+		PT,
 
-        /// <summary>
-        /// Romanian 
-        /// </summary>
-        RO,
+		/// <summary>
+		/// Romanian 
+		/// </summary>
+		RO,
 
-        /// <summary>
-        /// Polish
-        /// </summary>
-        PL,
+		/// <summary>
+		/// Polish
+		/// </summary>
+		PL,
 
-        /// <summary>
-        /// Finnish
-        /// </summary>
-        FI,
+		/// <summary>
+		/// Finnish
+		/// </summary>
+		FI,
 
-        /// <summary>
-        /// Dutch
-        /// </summary>
-        NL,
+		/// <summary>
+		/// Dutch
+		/// </summary>
+		NL,
 
-        /// <summary>
-        /// French
-        /// </summary>
-        FR,
+		/// <summary>
+		/// French
+		/// </summary>
+		FR,
 
-        /// <summary>
-        /// Bulgarian
-        /// </summary>
-        BG,
+		/// <summary>
+		/// Bulgarian
+		/// </summary>
+		BG,
 
-        /// <summary>
-        /// Swedish
-        /// </summary>
-        SE,
+		/// <summary>
+		/// Swedish
+		/// </summary>
+		SE,
 
-        /// <summary>
-        ///  Chinese Traditional
-        /// </summary>
-        ZH_TW,
+		/// <summary>
+		///  Chinese Traditional
+		/// </summary>
+		ZH_TW,
 
-        /// <summary>
-        /// Chinese Simplified
-        /// </summary>
-        ZH_CN,
+		/// <summary>
+		/// Chinese Simplified
+		/// </summary>
+		ZH_CN,
 
-        /// <summary>
-        /// Turkish
-        /// </summary>
-        TR
-    }
+		/// <summary>
+		/// Turkish
+		/// </summary>
+		TR
+	}
 }

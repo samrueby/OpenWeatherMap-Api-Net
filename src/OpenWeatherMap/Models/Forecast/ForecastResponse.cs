@@ -14,13 +14,10 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class ForecastResponse.
-    /// </summary>
-    [XmlRoot("weatherdata", Namespace = "")]
-    public class ForecastResponse : ForecastData
-    {
-    }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class ForecastResponse.
+	/// </summary>
+	[ XmlRoot( "weatherdata", Namespace = "" ) ]
+	public class ForecastResponse: ForecastData {}
 }

@@ -14,25 +14,23 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class Coordinates.
-    /// </summary>
-    public class Coordinates
-    {
-        /// <summary>
-        /// Gets or sets the longitude.
-        /// </summary>
-        /// <value>The longitude.</value>
-        [XmlAttribute("lon")]
-        public double Longitude { get; set; }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class Coordinates.
+	/// </summary>
+	public class Coordinates {
+		/// <summary>
+		/// Gets or sets the longitude.
+		/// </summary>
+		/// <value>The longitude.</value>
+		[ XmlAttribute( "lon" ) ]
+		public double Longitude { get; set; }
 
-        /// <summary>
-        /// Gets or sets the latitude.
-        /// </summary>
-        /// <value>The latitude.</value>
-        [XmlAttribute("lat")]
-        public double Latitude { get; set; }
-    }
+		/// <summary>
+		/// Gets or sets the latitude.
+		/// </summary>
+		/// <value>The latitude.</value>
+		[ XmlAttribute( "lat" ) ]
+		public double Latitude { get; set; }
+	}
 }

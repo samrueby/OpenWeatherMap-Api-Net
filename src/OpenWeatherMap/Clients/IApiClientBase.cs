@@ -12,17 +12,15 @@
 // <summary></summary>
 // ***********************************************************************
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Interface IApiClientBase
-    /// </summary>
-    public interface IApiClientBase
-    {
-        /// <summary>
-        /// Gets or sets the request.
-        /// </summary>
-        /// <value>The request.</value>
-        IOpenWeatherMapRequest Request { get; set; }
-    }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Interface IApiClientBase
+	/// </summary>
+	public interface IApiClientBase {
+		/// <summary>
+		/// Gets or sets the request.
+		/// </summary>
+		/// <value>The request.</value>
+		IOpenWeatherMapRequest Request { get; set; }
+	}
 }

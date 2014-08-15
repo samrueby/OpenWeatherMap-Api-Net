@@ -12,21 +12,19 @@
 // <summary></summary>
 // ***********************************************************************
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Enum Accuracy
-    /// </summary>
-    public enum Accuracy
-    {
-        /// <summary>
-        /// like
-        /// </summary>
-        Like,
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Enum Accuracy
+	/// </summary>
+	public enum Accuracy {
+		/// <summary>
+		/// like
+		/// </summary>
+		Like,
 
-        /// <summary>
-        /// accurate
-        /// </summary>
-        Accurate
-    }
+		/// <summary>
+		/// accurate
+		/// </summary>
+		Accurate
+	}
 }

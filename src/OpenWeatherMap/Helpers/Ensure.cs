@@ -14,38 +14,36 @@
 
 using System;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class Ensure.
-    /// </summary>
-    internal static class Ensure
-    {
-        /// <summary>
-        /// Ensure that the Argument value is not null.
-        /// </summary>
-        /// <param name="value">The value.</param>
-        /// <param name="name">The name.</param>
-        /// <exception cref="System.ArgumentNullException"></exception>
-        public static void ArgumentNotNull(object value, string name)
-        {
-            if (value != null) return;
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class Ensure.
+	/// </summary>
+	internal static class Ensure {
+		/// <summary>
+		/// Ensure that the Argument value is not null.
+		/// </summary>
+		/// <param name="value">The value.</param>
+		/// <param name="name">The name.</param>
+		/// <exception cref="System.ArgumentNullException"></exception>
+		public static void ArgumentNotNull( object value, string name ) {
+			if( value != null )
+				return;
 
-            throw new ArgumentNullException(name);
-        }
+			throw new ArgumentNullException( name );
+		}
 
-        /// <summary>
-        /// Ensure that the string value is not null or empty .
-        /// </summary>
-        /// <param name="value">The value.</param>
-        /// <param name="name">The name.</param>
-        /// <exception cref="System.ArgumentException">String cannot be empty</exception>
-        public static void ArgumentNotNullOrEmptyString(string value, string name)
-        {
-            ArgumentNotNull(value, name);
-            if (!string.IsNullOrEmpty(value)) return;
+		/// <summary>
+		/// Ensure that the string value is not null or empty .
+		/// </summary>
+		/// <param name="value">The value.</param>
+		/// <param name="name">The name.</param>
+		/// <exception cref="System.ArgumentException">String cannot be empty</exception>
+		public static void ArgumentNotNullOrEmptyString( string value, string name ) {
+			ArgumentNotNull( value, name );
+			if( !string.IsNullOrEmpty( value ) )
+				return;
 
-            throw new ArgumentException("String cannot be empty", name);
-        }
-    }
+			throw new ArgumentException( "String cannot be empty", name );
+		}
+	}
 }

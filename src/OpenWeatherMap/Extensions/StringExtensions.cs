@@ -14,21 +14,18 @@
 
 using System;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class StringExtensions.
-    /// </summary>
-    internal static class StringExtensions
-    {
-        /// <summary>
-        ///  encode string to be URL friendly.
-        /// </summary>
-        /// <param name="input">The input.</param>
-        /// <returns>System.String.</returns>
-        public static string UrlEncode(this string input)
-        {
-            return Uri.EscapeDataString(input);
-        }
-    }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class StringExtensions.
+	/// </summary>
+	internal static class StringExtensions {
+		/// <summary>
+		///  encode string to be URL friendly.
+		/// </summary>
+		/// <param name="input">The input.</param>
+		/// <returns>System.String.</returns>
+		public static string UrlEncode( this string input ) {
+			return Uri.EscapeDataString( input );
+		}
+	}
 }

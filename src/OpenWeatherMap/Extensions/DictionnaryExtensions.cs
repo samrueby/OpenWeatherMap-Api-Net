@@ -16,23 +16,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class DictionnaryExtensions.
-    /// </summary>
-    internal static class DictionnaryExtensions
-    {
-        /// <summary>
-        /// Transform the dictionnary into URL parameters.
-        /// </summary>
-        /// <param name="parameters">The parameters.</param>
-        /// <returns>System.String.</returns>
-        public static string ToUrlParameters(this IDictionary<string, string> parameters)
-        {
-            var array = parameters.Select(
-                x => string.Format("{0}={1}", Uri.EscapeUriString(x.Key), Uri.EscapeUriString(x.Value))).ToArray();
-            return string.Join("&", array);
-        }
-    }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class DictionnaryExtensions.
+	/// </summary>
+	internal static class DictionnaryExtensions {
+		/// <summary>
+		/// Transform the dictionnary into URL parameters.
+		/// </summary>
+		/// <param name="parameters">The parameters.</param>
+		/// <returns>System.String.</returns>
+		public static string ToUrlParameters( this IDictionary<string, string> parameters ) {
+			var array = parameters.Select( x => string.Format( "{0}={1}", Uri.EscapeUriString( x.Key ), Uri.EscapeUriString( x.Value ) ) ).ToArray();
+			return string.Join( "&", array );
+		}
+	}
 }

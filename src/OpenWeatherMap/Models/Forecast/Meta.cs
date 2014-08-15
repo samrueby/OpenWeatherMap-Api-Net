@@ -14,32 +14,30 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class Meta.
-    /// </summary>
-    public class Meta
-    {
-        /// <summary>
-        /// Gets or sets the last update.
-        /// </summary>
-        /// <value>The last update.</value>
-        [XmlElement("lastupdate")]
-        public string LastUpdate { get; set; }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class Meta.
+	/// </summary>
+	public class Meta {
+		/// <summary>
+		/// Gets or sets the last update.
+		/// </summary>
+		/// <value>The last update.</value>
+		[ XmlElement( "lastupdate" ) ]
+		public string LastUpdate { get; set; }
 
-        /// <summary>
-        /// Gets or sets the calculation time.
-        /// </summary>
-        /// <value>The calculation time.</value>
-        [XmlElement("calctime")]
-        public double CalcTime { get; set; }
+		/// <summary>
+		/// Gets or sets the calculation time.
+		/// </summary>
+		/// <value>The calculation time.</value>
+		[ XmlElement( "calctime" ) ]
+		public double CalcTime { get; set; }
 
-        /// <summary>
-        /// Gets or sets the next update.
-        /// </summary>
-        /// <value>The next update.</value>
-        [XmlElement("nextupdate")]
-        public string NextUpdate { get; set; }
-    }
+		/// <summary>
+		/// Gets or sets the next update.
+		/// </summary>
+		/// <value>The next update.</value>
+		[ XmlElement( "nextupdate" ) ]
+		public string NextUpdate { get; set; }
+	}
 }

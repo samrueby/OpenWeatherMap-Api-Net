@@ -14,32 +14,30 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class ForecastClouds.
-    /// </summary>
-    public class ForecastClouds
-    {
-        /// <summary>
-        /// Gets or sets the value.
-        /// </summary>
-        /// <value>The value.</value>
-        [XmlAttribute("value")]
-        public string Value { get; set; }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class ForecastClouds.
+	/// </summary>
+	public class ForecastClouds {
+		/// <summary>
+		/// Gets or sets the value.
+		/// </summary>
+		/// <value>The value.</value>
+		[ XmlAttribute( "value" ) ]
+		public string Value { get; set; }
 
-        /// <summary>
-        /// Gets or sets all value.
-        /// </summary>
-        /// <value>All.</value>
-        [XmlAttribute("all")]
-        public int All { get; set; }
+		/// <summary>
+		/// Gets or sets all value.
+		/// </summary>
+		/// <value>All.</value>
+		[ XmlAttribute( "all" ) ]
+		public int All { get; set; }
 
-        /// <summary>
-        /// Gets or sets the unit.
-        /// </summary>
-        /// <value>The unit.</value>
-        [XmlAttribute("unit")]
-        public string Unit { get; set; }
-    }
+		/// <summary>
+		/// Gets or sets the unit.
+		/// </summary>
+		/// <value>The unit.</value>
+		[ XmlAttribute( "unit" ) ]
+		public string Unit { get; set; }
+	}
 }

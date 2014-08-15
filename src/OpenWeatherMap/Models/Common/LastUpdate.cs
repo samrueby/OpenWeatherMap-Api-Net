@@ -15,18 +15,16 @@
 using System;
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class LastUpdate.
-    /// </summary>
-    public class LastUpdate
-    {
-        /// <summary>
-        /// Gets or sets the value.
-        /// </summary>
-        /// <value>The value.</value>
-        [XmlAttribute("value")]
-        public DateTime Value { get; set; }
-    }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class LastUpdate.
+	/// </summary>
+	public class LastUpdate {
+		/// <summary>
+		/// Gets or sets the value.
+		/// </summary>
+		/// <value>The value.</value>
+		[ XmlAttribute( "value" ) ]
+		public DateTime Value { get; set; }
+	}
 }

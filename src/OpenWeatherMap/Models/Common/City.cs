@@ -14,39 +14,37 @@
 
 using System.Xml.Serialization;
 
-namespace OpenWeatherMap
-{
-    /// <summary>
-    /// Class City.
-    /// </summary>
-    public class City
-    {
-        /// <summary>
-        /// Gets or sets the identifier.
-        /// </summary>
-        /// <value>The identifier.</value>
-        [XmlAttribute("id")]
-        public int Id { get; set; }
+namespace OpenWeatherMap {
+	/// <summary>
+	/// Class City.
+	/// </summary>
+	public class City {
+		/// <summary>
+		/// Gets or sets the identifier.
+		/// </summary>
+		/// <value>The identifier.</value>
+		[ XmlAttribute( "id" ) ]
+		public int Id { get; set; }
 
-        /// <summary>
-        /// Gets or sets the name.
-        /// </summary>
-        /// <value>The name.</value>
-        [XmlAttribute("name")]
-        public string Name { get; set; }
+		/// <summary>
+		/// Gets or sets the name.
+		/// </summary>
+		/// <value>The name.</value>
+		[ XmlAttribute( "name" ) ]
+		public string Name { get; set; }
 
-        /// <summary>
-        /// Gets or sets the coordinates.
-        /// </summary>
-        /// <value>The coordinates.</value>
-        [XmlElement("coord")]
-        public Coordinates Coordinates { get; set; }
+		/// <summary>
+		/// Gets or sets the coordinates.
+		/// </summary>
+		/// <value>The coordinates.</value>
+		[ XmlElement( "coord" ) ]
+		public Coordinates Coordinates { get; set; }
 
-        /// <summary>
-        /// Gets or sets the sun.
-        /// </summary>
-        /// <value>The sun.</value>
-        [XmlElement("sun")]
-        public Sun Sun { get; set; }
-    }
+		/// <summary>
+		/// Gets or sets the sun.
+		/// </summary>
+		/// <value>The sun.</value>
+		[ XmlElement( "sun" ) ]
+		public Sun Sun { get; set; }
+	}
 }
